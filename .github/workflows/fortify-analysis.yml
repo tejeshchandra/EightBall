@@ -81,7 +81,7 @@ jobs:
       - name: Download Results
         uses: fortify/gha-fod-generate-sarif@1.1.0
         with:
-          fod_base_url: ${{ secrets.FOD_BASE_URL }}
+          base_url: ${{ secrets.FOD_BASE_URL }}
           tenant: ${{ secrets.FOD_TENANT }}
           user: ${{ secrets.FOD_USER }}
           password: ${{ secrets.FOD_PAT }}

@@ -86,7 +86,7 @@ jobs:
           user: ${{ secrets.FOD_USER }}
           password: ${{ secrets.FOD_PAT }}
           release-id: ${{ secrets.FOD_RELEASE_ID }}
-          output: ./sarif/output.sarif
+          output: ./gh-fortify-sast.sarif
       
       # Import Fortify on Demand results to GitHub Security Code Scanning
       - name: Import Results

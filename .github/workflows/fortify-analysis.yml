@@ -92,4 +92,4 @@ jobs:
       - name: Import Results
         uses: fortify/gha-export-vulnerabilities@v1
         with:
-          sarif_file: ./sarif/output.sarif
+          sarif_file: ./gh-fortify-sast.sarif
